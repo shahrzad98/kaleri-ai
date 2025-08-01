@@ -7,7 +7,7 @@ First, run the development server:
 ```bash
 
 pnpm install
-pnpm dev
+pnpm run dev
 
 ```
 copy env.example into your ".env.local" file
