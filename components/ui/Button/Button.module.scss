@@ -1,0 +1,33 @@
+.button {
+  background-color: #228be6;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: 600;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: #1c7ed6;
+  }
+
+  &:active {
+    background-color: #1971c2;
+  }
+
+  &:disabled {
+    background-color: #e9ecef;
+    color: #adb5bd;
+    cursor: not-allowed;
+  }
+
+  &[data-full-width] {
+    width: 100%;
+  }
+}

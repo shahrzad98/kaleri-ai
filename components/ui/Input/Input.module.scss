@@ -1,0 +1,50 @@
+
+.inputContainer {
+  width: 100%;
+  text-align: left;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2C2E33;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    transition: border-color 0.2s ease;
+    height: 36px;
+    color: #2C2E33;
+    background-color: #fff;
+
+    &:focus {
+      border-color: #228be6;
+      box-shadow: 0 0 0 2px rgba(34, 139, 230, 0.15);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #adb5bd;
+    }
+
+    -moz-appearance: textfield; /* Firefox */
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+  .error {
+    color: #fa5252;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    min-height: 1rem;
+  }
+}
