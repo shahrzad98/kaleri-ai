@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f607ab6-fa62-4eee-ab6b-46b2dc1acf9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/auth/Auth.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/auth/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/Dashboard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Button/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Input/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/api-client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/modules/home.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/storage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="5f607ab6-fa62-4eee-ab6b-46b2dc1acf9c" name="Changes" comment="feat(global): auth &amp; dashboard page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,11 +91,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754050397288</updated>
-      <workItem from="1754050399104" duration="5720000" />
+      <workItem from="1754050399104" duration="6087000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(global): auth &amp; dashboard page">
+      <option name="closed" value="true" />
+      <created>1754056538320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754056538320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(global): auth &amp; dashboard page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(global): auth &amp; dashboard page" />
   </component>
 </project>
